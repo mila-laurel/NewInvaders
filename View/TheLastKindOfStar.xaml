@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="NewInvaders.View.TheLastKindOfStar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:NewInvaders.View"
+             mc:Ignorable="d" 
+             d:DesignHeight="6" d:DesignWidth="6">
+    <Grid>
+        <Line X1="0" Y1="3" X2="6" Y2="3" StrokeThickness="0.3" Stroke="Yellow"/>
+        <Line X1="3" Y1="0" X2="3" Y2="6" StrokeThickness="0.3" Stroke="Yellow"/>
+        <Line X1="2" Y1="2" X2="4" Y2="4" StrokeThickness="0.3" Stroke="Yellow"/>
+        <Line X1="2" Y1="4" X2="4" Y2="2" StrokeThickness="0.3" Stroke="Yellow"/>
+    </Grid>
+</UserControl>
