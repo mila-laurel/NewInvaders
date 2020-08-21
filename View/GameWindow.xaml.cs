@@ -20,6 +20,7 @@ namespace NewInvaders.View
         public GameWindow()
         {
             InitializeComponent();
+         
         }
     }
 }
