@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NewInvaders.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,13 @@ namespace NewInvaders
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void startButton_Click(object sender, RoutedEventArgs e)
+        {
+            var gameWindow = new GameWindow();
+            gameWindow.Show();
+            this.Close();
         }
     }
 }

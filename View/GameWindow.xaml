@@ -4,8 +4,13 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:NewInvaders.View"
+        xmlns:viewmodel="clr-namespace:NewInvaders.ViewModel"
         mc:Ignorable="d"
         Title="GameWindow" Height="646" Width="918">
+
+    <Window.Resources>
+        <viewmodel:Animation x:Key="viewModel"/>
+    </Window.Resources>
     <Grid>
         <Canvas x:Name="canvas" Background="Black"/>
     </Grid>

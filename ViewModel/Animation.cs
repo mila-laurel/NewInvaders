@@ -17,8 +17,6 @@ namespace NewInvaders.ViewModel
         private Rect boundaries;
         private List<Star> stars;
 
-
-
         public Animation()
         {
             boundaries = game.Boundaries;

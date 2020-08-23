@@ -17,10 +17,12 @@ namespace NewInvaders.View
     /// </summary>
     public partial class GameWindow : Window
     {
+        ViewModel.Animation viewModel;
         public GameWindow()
         {
             InitializeComponent();
-         
+            viewModel = FindResource("viewModel") as ViewModel.Animation;
+
         }
     }
 }

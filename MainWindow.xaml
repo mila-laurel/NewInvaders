@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Canvas Background="Black">
+            <TextBlock Text="Invaders" FontSize="65" Canvas.Left="280" Canvas.Top="131">
+                <TextBlock.Foreground>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="#FFECEC02" Offset="1"/>
+                    </LinearGradientBrush>
+                </TextBlock.Foreground>
+            </TextBlock>
+            <Button x:Name="startButton" Content="Start the Game" Canvas.Left="319" Canvas.Top="222" Background="#FFEEE52A" FontSize="24" Click="startButton_Click"/>
+            <Button Content="Exit" Canvas.Left="380" Canvas.Top="298" FontSize="24"/>
+        </Canvas>
 
     </Grid>
 </Window>
